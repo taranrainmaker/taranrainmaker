@@ -1,45 +1,52 @@
 # Policy Documentation Status
 
-Halaman ini menjelaskan dokumen tata kelola yang tersedia secara publik dan dokumen yang perlu disusun atau disepakati berdasarkan model layanan serta kegiatan pemrosesan data yang sebenarnya.
+Halaman ini menjelaskan dokumen tata kelola perusahaan dan status bukti implementasinya. Keberadaan dokumen tidak otomatis membuktikan kontrol teknis berjalan.
 
-## Dokumen Publik Saat Ini
+## Dokumen yang Telah Disusun
 
-| Dokumen | Status | Keterangan |
+| Dokumen | Status | Catatan |
 |---|---|---|
-| Information Security Principles | Dipublikasikan | Prinsip umum, bukan sertifikasi atau bukti audit |
-| Vendor & Partnership Guide | Dipublikasikan | Panduan awal penjajakan kerja sama |
-| Company Profile | Dipublikasikan | Profil dan ruang lingkup usaha |
-| TaranPx Technical Overview | Dipublikasikan | Gambaran teknis tingkat tinggi |
-| TaranPx SaaS Service Framework | Diperbarui | Mencatat keputusan awal backup harian dan dukungan 24/7; bukti operasional dan SLA masih perlu dicocokkan |
+| Information Security Principles | Dipublikasikan | Prinsip umum |
+| Information Security Policy | Draft final untuk pengesahan Direktur | Belum ada tanda tangan/lembar pengesahan |
+| Privacy Policy Draft | Draft | Google Analytics telah diidentifikasi; konfigurasi dan data map belum lengkap |
+| Incident Response Procedure | Draft final untuk pengesahan dan penunjukan PIC | PIC dan kanal eskalasi harus ditetapkan |
+| Backup & Recovery Procedure | Draft operasional | Keputusan backup harian dicatat; bukti teknis dan uji restore belum diverifikasi |
+| TaranPx SaaS Service Framework | Diperbarui | Dukungan 24/7 dan SLA dicatat; SLA tertulis belum ditelaah |
+| TaranPx SATUSEHAT Assessment Findings | Dipublikasikan | Ringkasan temuan workbook SaaS dan remediasi |
+| Operational Evidence Checklist | Dipublikasikan | Checklist bukti operasional |
 
-## Dokumen yang Memerlukan Penetapan Lebih Lanjut
+## Dokumen yang Masih Memerlukan Penetapan
 
-| Dokumen | Hal yang perlu dipastikan sebelum publikasi final |
+| Dokumen | Hal yang perlu dipastikan |
 |---|---|
-| Privacy Policy | Penyedia analytics, cookies, data aktual, tujuan, dasar pemrosesan, pihak penerima, retensi, hak subjek data, dan kontak |
-| Terms of Service | Model layanan, hak dan kewajiban, batas penggunaan, biaya, penghentian, dan penyelesaian sengketa |
-| SaaS Service Level Agreement | Perusahaan menyatakan SLA tertulis telah tersedia; salinan dan versi berlaku perlu ditelaah untuk menyelaraskan dokumentasi publik |
-| Data Processing / Confidentiality Terms | Peran para pihak, instruksi pemrosesan, kerahasiaan, subprosesor, keamanan, retensi, pengembalian/penghapusan data |
-| Business Continuity & Disaster Recovery | Rencana kesinambungan, pemulihan, tanggung jawab, dan hasil pengujian |
-| Incident Response Procedure | Klasifikasi insiden, jalur eskalasi, penanggung jawab, komunikasi, dan pencatatan |
-| Vendor Due Diligence Pack | Dokumen legal, administrasi, teknis, dan pendukung sesuai persyaratan calon pelanggan |
-| TaranSignature PSrE Partner Evidence | Identitas mitra, bukti status PSrE, perjanjian, ruang lingkup layanan, dan bukti integrasi |
+| Privacy Policy final | Google Analytics property/configuration, cookies, data map, retensi, subprosesor, hak subjek data, legal review |
+| Terms of Service | Model layanan, hak/kewajiban, biaya, batas penggunaan, penghentian, sengketa |
+| SLA TaranPx | Perusahaan menyatakan SLA tertulis sudah tersedia; salinan versi berlaku perlu diperiksa |
+| Data Processing Agreement / Confidentiality Terms | Peran para pihak, instruksi pemrosesan, subprosesor, keamanan, retensi, pengembalian/penghapusan |
+| Business Continuity & Disaster Recovery Plan | Rencana, RPO/RTO, tanggung jawab, dan hasil uji |
+| NDA Personel | Template dan bukti penandatanganan personel yang terlibat |
+| PIC Keamanan Informasi | Surat penunjukan dan uraian tanggung jawab |
+| PIC Pelindungan Data Pribadi | Surat penunjukan dan uraian tanggung jawab |
+| TaranSignature PSrE Partner Evidence | Nama badan hukum Sertisign, status PSrE resmi, kontrak, ruang lingkup dan bukti integrasi |
 
-## Keputusan Operasional yang Dicatat
+## Keputusan Direktur yang Dicatat
 
-- TaranPx SaaS: backup harian sebagai keputusan awal perusahaan.
-- Dukungan pelanggan TaranPx: 24 jam / 7 hari sebagai keputusan awal perusahaan.
-- SLA: perusahaan menyatakan dokumen tertulis sudah ada; belum ditelaah untuk verifikasi.
-- Website: menggunakan analytics; penyedia dan konfigurasi belum diidentifikasi.
-- TaranSignature: perusahaan menyatakan menggunakan mitra PSrE pihak ketiga; identitas dan integrasi belum diverifikasi.
+- TaranPx SaaS: backup harian.
+- Dukungan pelanggan TaranPx: 24 jam / 7 hari.
+- SLA: perusahaan menyatakan dokumen tertulis sudah tersedia.
+- Website: menggunakan Google Analytics.
+- TaranSignature: perusahaan menyatakan menggunakan Sertisign sebagai mitra PSrE.
 
-## Prinsip Publikasi
+Keputusan di atas dicatat sebagai pernyataan perusahaan. Bukti operasional dan legal tetap harus diverifikasi sebelum klaim kepatuhan atau layanan tersertifikasi dipublikasikan.
 
-1. Jangan menerbitkan janji SLA, persentase uptime, waktu respons, atau target pemulihan sebelum disetujui dan dapat dipenuhi.
-2. Jangan menyatakan sertifikasi, audit, penetration test, atau kepatuhan yang belum memiliki bukti.
-3. Jangan menerbitkan kebijakan privasi generik yang tidak sesuai dengan praktik pengumpulan dan pemrosesan data sebenarnya.
+## Prinsip Publikasi dan Assessment
+
+1. Jangan mengubah skor SATUSEHAT hanya karena dokumen kebijakan telah dibuat.
+2. Jangan menyatakan sertifikasi, audit, penetration test, atau kontrol teknis telah selesai tanpa bukti.
+3. Jangan memublikasikan angka SLA, uptime, RPO, RTO, atau retensi sebelum dicocokkan dengan perjanjian dan konfigurasi.
 4. Bedakan tanggung jawab SaaS dari tanggung jawab instalasi on-premise.
-5. Tinjau ulang dokumen ketika produk, proses, atau kewajiban layanan berubah.
+5. Jangan menyatakan PT Taran Rainmaker Group/TaranSignature sebagai PSrE.
+6. Tinjau dokumen ketika produk, proses, vendor, atau regulasi berubah.
 
 ## Kontak
 
