@@ -9,10 +9,14 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 
 ## Services & Partnership
 
+- [Vendor Registration Pack](VENDOR-REGISTRATION-PACK.md) — checklist kesiapan administrasi dan dokumen pendukung vendor.
+
 - [IT Services Catalog](IT-SERVICES.md) — ruang lingkup layanan teknologi informasi.
 - [Vendor & Partnership Guide](VENDOR-PARTNERSHIP.md) — alur awal permintaan kerja sama, penawaran, dan evaluasi kebutuhan.
 
 ## Product & Technical
+
+- [TaranPx Product Datasheet](TARANPX-DATASHEET.md) — ringkasan produk, model layanan, fitur terdokumentasi, integrasi, dan kebutuhan evaluasi.
 
 - [TaranPx Technical Overview](../TECHNICAL-OVERVIEW.md) — gambaran teknis tingkat tinggi TaranPx.
 - [TaranPx Repository](https://github.com/taranrainmaker/taranpx) — dokumentasi produk dan kebijakan keamanan TaranPx.
