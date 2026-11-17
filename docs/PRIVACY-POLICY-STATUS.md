@@ -1,63 +1,73 @@
 # Privacy Policy — Publication Readiness
 
-Halaman ini mencatat praktik dan informasi awal yang disampaikan perusahaan serta verifikasi yang harus diselesaikan sebelum Kebijakan Privasi final diterbitkan.
+Halaman ini mencatat keputusan perusahaan dan pekerjaan verifikasi sebelum naskah Kebijakan Privasi disahkan dan dipublikasikan.
 
-## 1. Informasi Awal dari Perusahaan
+## 1. Informasi yang Dikonfirmasi
 
-| Area | Informasi awal | Status |
+| Area | Informasi | Status |
 |---|---|---|
-| Website | Menggunakan analytics | Penyedia, konfigurasi, cookie, data yang dikumpulkan, retensi, dan transfer data belum diverifikasi |
-| TaranPx SaaS | Memproses data dalam layanan SIMRS/RME | Pemetaan kategori data, peran para pihak, subprosesor, dan instruksi pemrosesan perlu dilengkapi |
+| Website perusahaan | Menggunakan Google Analytics | Vendor diketahui; property, konfigurasi, cookies, event, retensi, dan transfer belum diverifikasi |
+| TaranPx SaaS | Memproses data dalam layanan SIMRS/RME | Data map, peran pengendali/prosesor, subprosesor, dan instruksi pemrosesan perlu dilengkapi |
 | TaranPx on-premise | Opsi instalasi pada infrastruktur fasilitas kesehatan | Pembagian tanggung jawab perlu ditetapkan per implementasi |
-| Dukungan | Dukungan pelanggan 24/7 sebagai keputusan awal | Data yang masuk melalui kanal dukungan dan retensinya perlu dipetakan |
+| Dukungan | Dukungan 24/7 sebagai keputusan perusahaan | Data yang diterima melalui kanal dukungan dan retensinya perlu dipetakan |
 
-Pernyataan “menggunakan analytics” tidak cukup untuk menyusun pemberitahuan privasi yang akurat. Nama penyedia analytics dan konfigurasi aktual wajib diperiksa.
+## 2. Naskah Kebijakan
 
-## 2. Data yang Perlu Dipetakan
+[Naskah Kebijakan Privasi](PRIVACY-POLICY-DRAFT.md) telah dibuat berdasarkan informasi yang tersedia. Statusnya tetap draft karena konfigurasi Google Analytics dan data map produk belum diperiksa.
 
-| Area | Pertanyaan verifikasi |
+## 3. Verifikasi Google Analytics
+
+- [ ] Pastikan apakah implementasi menggunakan Google Analytics 4 atau produk/property lain.
+- [ ] Identifikasi Measurement ID/property dan domain yang dipasang.
+- [ ] Periksa tag/script aktual di website.
+- [ ] Inventarisasi cookies, identifiers, dan event.
+- [ ] Periksa data yang dikumpulkan, termasuk IP/device/browser data.
+- [ ] Periksa pengaturan data retention.
+- [ ] Periksa Google Signals, advertising features, user-provided data, dan data sharing settings jika aktif.
+- [ ] Periksa consent/cookie notice dan mekanisme pilihan pengguna yang sesuai.
+- [ ] Periksa lokasi pemrosesan, transfer lintas negara, dan dokumentasi vendor.
+- [ ] Catat tanggal pemeriksaan dan bukti konfigurasi yang disamarkan.
+
+Jangan menyatakan konfigurasi tertentu aktif atau nonaktif sebelum diperiksa di properti Google Analytics.
+
+## 4. Data yang Perlu Dipetakan
+
+| Area | Pertanyaan |
 |---|---|
-| Website analytics | Nama vendor, cookies/identifiers, IP atau device data, event yang dicatat, lokasi pemrosesan, retensi |
-| Cookies | Cookies esensial dan non-esensial, masa berlaku, kontrol/pilihan pengguna |
-| Kontak bisnis | Data yang diterima melalui email/formulir dan masa penyimpanan |
-| TaranPx SaaS | Data pasien, tenaga kesehatan, pengguna, log, tujuan pemrosesan, peran para pihak |
-| TaranPx on-premise | Siapa yang mengelola server, backup, akses, dan penghapusan data |
-| Integrasi | Data yang dikirim ke layanan eksternal dan otorisasi yang digunakan |
-| Vendor | Penyedia hosting, analytics, email, monitoring, dan subprosesor lain |
-| Retensi | Masa simpan setiap kategori data dan mekanisme penghapusan |
-| Hak subjek data | Kanal permintaan akses, koreksi, penghapusan, dan hak lain yang berlaku |
-| Insiden | Penanggung jawab, alur eskalasi, dan komunikasi insiden |
+| Website analytics | Vendor, identifiers, IP/device data, event, retensi, lokasi pemrosesan |
+| Cookies | Cookies esensial/non-esensial, masa berlaku, kontrol pengguna |
+| Kontak bisnis | Data email/formulir dan masa penyimpanan |
+| TaranPx SaaS | Data pasien, tenaga kesehatan, pengguna, log, tujuan, peran para pihak |
+| TaranPx on-premise | Siapa mengelola server, backup, akses, dan penghapusan |
+| Integrasi | Data yang dikirim ke layanan eksternal dan otorisasi |
+| Vendor | Hosting, analytics, email, monitoring, subprosesor |
+| Retensi | Masa simpan setiap kategori dan mekanisme penghapusan |
+| Hak subjek data | Kanal permintaan dan verifikasi pemohon |
+| Insiden | PIC, eskalasi, dan komunikasi |
 
-## 3. Checklist Sebelum Publikasi
+## 5. Checklist Finalisasi
 
-- [ ] Identifikasi nama dan versi layanan analytics yang digunakan di website.
-- [ ] Periksa tag/script analytics dan cookies yang benar-benar dipasang.
-- [ ] Konfirmasi kategori data/event, tujuan, retensi, lokasi pemrosesan, dan transfer.
-- [ ] Tentukan apakah mekanisme pemberitahuan dan pilihan cookies diperlukan sesuai konfigurasi dan ketentuan yang berlaku.
-- [ ] Inventarisasi seluruh website, aplikasi, formulir, dan kanal pengumpulan data.
+- [ ] Identifikasi konfigurasi Google Analytics aktual.
+- [ ] Inventarisasi website, aplikasi, formulir, dan kanal data.
 - [ ] Petakan kategori data pribadi dan data kesehatan.
-- [ ] Tentukan peran perusahaan dan pelanggan untuk setiap kegiatan pemrosesan.
+- [ ] Tentukan peran perusahaan dan pelanggan untuk tiap kegiatan.
 - [ ] Dokumentasikan tujuan dan dasar pemrosesan.
 - [ ] Identifikasi penerima data, vendor, dan subprosesor.
-- [ ] Tetapkan retensi, penghapusan, dan mekanisme pemenuhan hak.
-- [ ] Tentukan kontak privasi dan prosedur permintaan.
-- [ ] Tinjau dokumen dengan penasihat hukum/penanggung jawab yang kompeten.
-- [ ] Publikasikan versi, tanggal berlaku, dan mekanisme pembaruan.
+- [ ] Tetapkan retensi, penghapusan, dan pemenuhan hak.
+- [ ] Tetapkan kontak privasi dan PIC.
+- [ ] Tinjau naskah dengan penasihat hukum/penanggung jawab kompeten.
+- [ ] Dapatkan pengesahan Direktur dan publikasikan versi final.
 
-## 4. Catatan Kepatuhan
+## 6. Catatan
 
-UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi mengatur kewajiban pengendali dan prosesor data pribadi. Peran perusahaan dapat berbeda menurut layanan dan hubungan kontraktual; jangan mengasumsikan PT Taran Rainmaker Group selalu bertindak sebagai pengendali untuk seluruh data pelanggan.
-
-PP No. 71 Tahun 2019 juga memuat prinsip perlindungan data pribadi dalam penyelenggaraan sistem elektronik. Penerapan kewajiban harus dinilai terhadap praktik pemrosesan aktual dan ketentuan yang berlaku.
+UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi mengatur kewajiban pengendali dan prosesor. Peran perusahaan dapat berbeda menurut produk, tujuan, dan hubungan kontraktual; jangan menganggap perusahaan selalu menjadi pengendali untuk seluruh data pelanggan.
 
 Referensi:
-- [UU No. 27 Tahun 2022 — Pelindungan Data Pribadi](https://jdih.kemenkeu.go.id/api/download/46c17b53-4a45-411c-9b76-c6799e5769fc/UU_Nomor_27_Tahun_2022%20Perlindungan%20Data%20Pribadi.pdf)
+- [UU No. 27 Tahun 2022 — JDIH Kemenkeu](https://jdih.kemenkeu.go.id/api/download/46c17b53-4a45-411c-9b76-c6799e5769fc/UU_Nomor_27_Tahun_2022%20Perlindungan%20Data%20Pribadi.pdf)
 - [PP No. 71 Tahun 2019 — JDIH Komdigi](https://jdih.komdigi.go.id/index.php/produk_hukum/view/id/695/t/adler32)
 
-## Status Dokumen
+**Status: draft tersedia, belum final/publik.** Pengesahan Direktur tidak menggantikan verifikasi praktik pemrosesan dan peninjauan hukum.
 
-**Status: belum menjadi Kebijakan Privasi final.** Informasi penggunaan analytics sudah dicatat, tetapi vendor dan konfigurasi aktual belum diketahui. Jangan gunakan halaman ini sebagai pengganti kebijakan privasi atau dasar pemrosesan data.
-
-Kontak perusahaan: hallo@taranrainmaker.my.id
+Kontak: hallo@taranrainmaker.my.id
 
 © PT Taran Rainmaker Group. All rights reserved.
