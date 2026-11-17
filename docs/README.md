@@ -17,6 +17,8 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 ## Product & Technical
 
 - [TaranPx Product Datasheet](TARANPX-DATASHEET.md) — ringkasan produk, model layanan, fitur terdokumentasi, integrasi, dan kebutuhan evaluasi.
+- [TaranMidwife Product Datasheet](TARANMIDWIFE-DATASHEET.md) — ringkasan proyek, teknologi, kapabilitas source code, dan status pengembangan.
+- [TaranSignature Product Datasheet](TARANSIGNATURE-DATASHEET.md) — ringkasan fitur terdokumentasi, teknologi, deployment, dan batas klaim produk.
 - [TaranPx SaaS Service Framework](TARANPX-SAAS-SERVICE-FRAMEWORK.md) — kerangka pembahasan SLA, dukungan, backup, data, dan tanggung jawab layanan.
 
 - [TaranPx Technical Overview](../TECHNICAL-OVERVIEW.md) — gambaran teknis tingkat tinggi TaranPx.
@@ -27,6 +29,7 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 - [Information Security Principles](INFORMATION-SECURITY.md) — prinsip pengelolaan informasi dan keamanan.
 - [Policy Publication Status](POLICIES.md) — status dokumen kebijakan publik dan dokumen yang perlu disepakati per proyek.
 - [Privacy Policy Readiness](PRIVACY-POLICY-STATUS.md) — daftar verifikasi sebelum kebijakan privasi final diterbitkan.
+- [TaranPx SaaS Service Framework](TARANPX-SAAS-SERVICE-FRAMEWORK.md) — kerangka pembahasan SLA, dukungan, backup, data, dan tanggung jawab layanan.
 
 ## Contact
 
