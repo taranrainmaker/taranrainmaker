@@ -21,6 +21,12 @@
 
 We develop and deliver digital solutions with an emphasis on practical workflows, system integration, operational visibility, and dependable technology.
 
+## 📚 Company & Technical Documentation
+
+- **[Company Profile](COMPANY-PROFILE.md)** — profil perusahaan, fokus usaha, portofolio, prinsip kerja, dan kontak resmi.
+- **[TaranPx Technical Overview](TECHNICAL-OVERVIEW.md)** — ringkasan teknologi, model SaaS/on-premise, area fungsional, alur integrasi, dan prinsip pengelolaan keamanan.
+- **[Products & Solutions](PRODUCTS.md)** — daftar produk dan status pengembangannya.
+
 ## 🚀 Solutions & Products
 
 For a fuller, carefully scoped overview of the product portfolio, see **[Products & Solutions](PRODUCTS.md)**.
