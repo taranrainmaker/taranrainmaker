@@ -3,7 +3,7 @@
 
 **Electronic Document Signing & Verification Platform**
 
-TaranSignature adalah platform pengelolaan dokumen, alur tanda tangan elektronik, dan verifikasi dokumen berbasis QR yang dikembangkan oleh PT Taran Rainmaker Group.
+TaranSignature adalah platform pengelolaan dokumen, alur tanda tangan elektronik, dan verifikasi dokumen yang dikembangkan oleh PT Taran Rainmaker Group.
 
 ## 1. Informasi Produk
 
@@ -26,9 +26,26 @@ TaranSignature adalah platform pengelolaan dokumen, alur tanda tangan elektronik
 - Pengelolaan pengguna, peran, dan hak akses.
 - Notifikasi email.
 
-Ruang lingkup fitur, otorisasi penandatangan, jenis tanda tangan, dan kesesuaian terhadap ketentuan tanda tangan elektronik yang berlaku harus dievaluasi secara terpisah. Dokumen ini tidak menyatakan bahwa produk memiliki sertifikasi PSrE atau bahwa seluruh tanda tangan yang dibuat otomatis merupakan tanda tangan elektronik tersertifikasi.
+Ruang lingkup fitur, otorisasi penandatangan, jenis tanda tangan, dan kesesuaian terhadap ketentuan tanda tangan elektronik yang berlaku harus dievaluasi secara terpisah.
 
-## 3. Teknologi dan Komponen
+## 3. Integrasi PSrE Pihak Ketiga — Perlu Verifikasi
+
+Perusahaan menyampaikan bahwa model TaranSignature menggunakan mitra PSrE pihak ketiga.
+
+Informasi tersebut dicatat sebagai model kerja sama yang dinyatakan perusahaan. Namun, identitas mitra, status pengakuan, ruang lingkup layanan, dan bukti integrasi belum diverifikasi dalam dokumen ini.
+
+Sebelum dipublikasikan sebagai klaim komersial, lengkapi:
+- Nama badan hukum dan nama layanan PSrE mitra.
+- Bukti status PSrE dan status pengakuan yang masih berlaku.
+- Perjanjian/otorisasi kerja sama atau bukti hubungan layanan.
+- Jenis layanan yang digunakan (misalnya penerbitan sertifikat elektronik atau layanan TTE).
+- Alur integrasi teknis dan pembagian tanggung jawab.
+- Cara validasi sertifikat, status tanda tangan, dan bukti audit.
+- Batasan layanan, biaya, dan ketergantungan pada pihak mitra.
+
+**Batas klaim:** TaranSignature tidak boleh disebut sebagai PSrE atau penerbit sertifikat elektronik milik sendiri. Klaim bahwa TTE tersertifikasi disediakan melalui mitra hanya boleh digunakan setelah mitra dan alur layanan diverifikasi. Fitur QR verification tidak dengan sendirinya membuktikan tanda tangan tersertifikasi atau keabsahan semua dokumen.
+
+## 4. Teknologi dan Komponen
 
 | Komponen | Teknologi terdokumentasi |
 |---|---|
@@ -39,7 +56,7 @@ Ruang lingkup fitur, otorisasi penandatangan, jenis tanda tangan, dan kesesuaian
 | Dependency management | Composer |
 | File storage | Local dan S3-compatible object storage |
 
-## 4. Deployment dan Isolasi
+## 5. Deployment dan Isolasi
 
 Dokumentasi repository menyebut target deployment NEO App dengan database MySQL khusus dan private S3-compatible object storage.
 
@@ -47,22 +64,22 @@ Panduan deployment menjelaskan konfigurasi serta checklist verifikasi. Konfigura
 
 TaranSignature menggunakan resource database dan storage tersendiri. Jangan menggunakan ulang resource TaranPx.
 
-## 5. Keamanan Dokumen
+## 6. Keamanan Dokumen
 
-- Jangan commit .env, config.local.php, kredensial, private key, dump database, atau dokumen pengguna.
+- Jangan commit file konfigurasi yang berisi kredensial, private key, dump database, atau dokumen pengguna.
 - Simpan object storage dalam konfigurasi privat.
 - Lindungi akses dokumen melalui otorisasi aplikasi.
 - Kelola secret melalui konfigurasi environment hosting.
 - Batasi akses database dan storage sesuai kebutuhan.
 
-## 6. Referensi
+## 7. Referensi
 
 - [Repository TaranSignature](https://github.com/taranrainmaker/taransignature)
 - [NEO App Deployment Guide](https://github.com/taranrainmaker/taransignature/blob/neoapp-deploy-clean/NEOAPP-DEPLOY.md)
-- Application: https://e-sign.taranrainmaker.my.id
-- Verification: https://verify.taranrainmaker.my.id
+- [Portal PSrE Komdigi](https://tte.komdigi.go.id/)
+- [Permenkominfo No. 11 Tahun 2022](https://jdih.komdigi.go.id/produk_hukum/view/id/833/t/peraturan%2Bmenteri%2Bkomunikasi%2Bdan%2Binformatika%2Bnomor%2B11%2Btahun%2B2022)
 
-## 7. Kontak
+## 8. Kontak
 
 PT Taran Rainmaker Group  
 Email: hallo@taranrainmaker.my.id  
