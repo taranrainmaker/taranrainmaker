@@ -23,6 +23,8 @@ We develop and deliver digital solutions with an emphasis on practical workflows
 
 ## 🚀 Solutions & Products
 
+For a fuller, carefully scoped overview of the product portfolio, see **[Products & Solutions](PRODUCTS.md)**.
+
 | Product | Focus |
 |:--|:--|
 | 🏥 **TaranPx** | Hospital and clinic information system (SIMRS) and electronic medical record (RME), including digital nurse calling. |
