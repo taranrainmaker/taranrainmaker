@@ -1,57 +1,82 @@
-# PT Taran Rainmaker Group
+# <div align="center">PT Taran Rainmaker Group</div>
 
-<p align="center">
+<div align="center">
+  <img src="https://img.shields.io/badge/TECHNOLOGY-DIGITAL%20SOLUTIONS-0B1F3A?style=for-the-badge&labelColor=0B1F3A" alt="Technology and digital solutions" />
+  <img src="https://img.shields.io/badge/INDONESIA-BASED-D4AF37?style=for-the-badge&labelColor=0B1F3A" alt="Indonesia based" />
+  <br><br>
   <strong>Technology • Digital Solutions • Integrated Systems</strong><br>
   Building practical technology for organizations and essential services.
-</p>
-
-<p align="center">
-  <a href="https://taranrainmaker.my.id">Website</a> ·
-  <a href="mailto:hallo@taranrainmaker.my.id">Business Inquiries</a>
-</p>
+  <br><br>
+  <a href="https://taranrainmaker.my.id"><img src="https://img.shields.io/badge/Website-Visit%20Us-D4AF37?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="mailto:hallo@taranrainmaker.my.id"><img src="https://img.shields.io/badge/Business%20Inquiries-Contact%20Us-0B1F3A?style=flat-square&logo=gmail&logoColor=white" alt="Business inquiries" /></a>
+  <a href="https://github.com/taranrainmaker"><img src="https://img.shields.io/badge/GitHub-taranrainmaker-24292e?style=flat-square&logo=github" alt="GitHub profile" /></a>
+</div>
 
 ---
 
-## About
+## 🏢 About
 
 **PT Taran Rainmaker Group** is an Indonesian technology company focused on information technology services, software development, and technology procurement.
 
 We develop and deliver digital solutions with an emphasis on practical workflows, system integration, operational visibility, and dependable technology.
 
-## Solutions & Products
+## 🚀 Solutions & Products
 
 | Product | Focus |
-|---|---|
-| **TaranPx** | Hospital and clinic information system (SIMRS) and electronic medical record (RME), including digital nurse calling. |
-| **TaranDx** | INA-CBG and iDRG claim analysis and monitoring. |
-| **TaranDispute** | Tools and support for healthcare claim dispute analysis. |
-| **TaranVault** | Virtual Data Room for secure document sharing and collaboration. |
-| **TaranMidwife** | Mobile application platform for midwife and home-care services. |
-| **TaranHx** | Product concept for healthcare operations, quality, accreditation, administration, HR, and reporting. |
+|:--|:--|
+| 🏥 **TaranPx** | Hospital and clinic information system (SIMRS) and electronic medical record (RME), including digital nurse calling. |
+| 📊 **TaranDx** | INA-CBG and iDRG claim analysis and monitoring. |
+| ⚖️ **TaranDispute** | Tools and support for healthcare claim dispute analysis. |
+| 🔐 **TaranVault** | Virtual Data Room for secure document sharing and collaboration. |
+| 🤱 **TaranMidwife** | Mobile application platform for midwife and home-care services. |
+| 🧩 **TaranHx** | Product concept for healthcare operations, quality, accreditation, administration, HR, and reporting. |
 
-## Areas of Work
+## 🛠️ Areas of Work
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Custom%20Software-Development-0B1F3A?style=for-the-badge" alt="Custom software development" />
+  <img src="https://img.shields.io/badge/Healthcare-Digital%20Systems-D4AF37?style=for-the-badge" alt="Healthcare digital systems" />
+  <img src="https://img.shields.io/badge/System-Integration-52677D?style=for-the-badge" alt="System integration" />
+  <img src="https://img.shields.io/badge/IT-Procurement-7B8794?style=for-the-badge" alt="IT procurement" />
+</div>
 
 - Custom software design and development
 - Healthcare information systems and digital health workflows
 - System integration and data-oriented applications
 - IT infrastructure and technology procurement
 
-## Engineering Principles
+## 🏅 GitHub Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=taranrainmaker&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub profile trophies" />
+</div>
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=taranrainmaker&show_icons=true&hide_border=true&bg_color=0B1F3A&title_color=D4AF37&icon_color=D4AF37&text_color=F4F6F8&rank_icon=github" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taranrainmaker&layout=compact&hide_border=true&bg_color=0B1F3A&title_color=D4AF37&text_color=F4F6F8" alt="Most used languages on public repositories" />
+</div>
+
+<sub>Achievement trophies and statistics are generated dynamically from GitHub account activity and public repository data. Third-party widgets may occasionally be unavailable.</sub>
+
+## ✨ Engineering Principles
 
 - **Useful by design** — solve real operational needs.
 - **Security-conscious** — treat access, data, and privacy as core considerations.
 - **Maintainable systems** — favor clear architecture and responsible iteration.
 - **Honest delivery** — communicate capabilities and implementation status accurately.
 
-## Contact
+## 📬 Contact
 
 For business inquiries, collaboration, or product demonstrations:
 
-- Website: https://taranrainmaker.my.id
-- Email: hallo@taranrainmaker.my.id
+<div align="center">
+  <a href="https://taranrainmaker.my.id"><img src="https://img.shields.io/badge/Official%20Website-taranrainmaker.my.id-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official website" /></a>
+  <br><br>
+  <a href="mailto:hallo@taranrainmaker.my.id"><img src="https://img.shields.io/badge/Email-hallo%40taranrainmaker.my.id-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Business email" /></a>
+</div>
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>© PT Taran Rainmaker Group. All rights reserved.</sub>
-</p>
+</div>
