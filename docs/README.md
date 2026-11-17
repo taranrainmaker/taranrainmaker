@@ -31,6 +31,8 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 - [Privacy Policy Readiness](PRIVACY-POLICY-STATUS.md) — daftar verifikasi sebelum kebijakan privasi final diterbitkan.
 - [TaranPx SaaS Service Framework](TARANPX-SAAS-SERVICE-FRAMEWORK.md) — kerangka pembahasan SLA, dukungan, backup, data, dan tanggung jawab layanan.
 
+- [Operational Evidence Checklist](OPERATIONAL-EVIDENCE-CHECKLIST.md) — bukti yang diperlukan untuk verifikasi backup, dukungan 24/7, analytics, SLA, dan mitra PSrE.
+
 ## Contact
 
 Untuk permintaan penawaran, demonstrasi, kerja sama vendor, atau klarifikasi dokumen:
