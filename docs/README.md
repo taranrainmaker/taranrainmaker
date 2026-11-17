@@ -25,6 +25,9 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 - [TaranPx Technical Overview](../TECHNICAL-OVERVIEW.md) — gambaran teknis tingkat tinggi TaranPx.
 - [TaranPx Repository](https://github.com/taranrainmaker/taranpx) — dokumentasi produk dan kebijakan keamanan TaranPx.
 
+- [Director Approval Register](DIRECTOR-APPROVAL-REGISTER.md) — daftar dokumen untuk pengesahan formal Direktur.
+- [SATUSEHAT Control Remediation Tracker](SATUSEHAT-CONTROL-REMEDIATION-TRACKER.md) — matriks pemetaan dan penutupan kontrol assessment.
+
 ## Governance & Information Security
 
 - [Information Security Principles](INFORMATION-SECURITY.md) — prinsip umum pengelolaan informasi.
