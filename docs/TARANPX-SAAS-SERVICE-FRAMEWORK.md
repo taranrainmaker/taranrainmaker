@@ -1,87 +1,74 @@
 # TaranPx SaaS Service Framework
 ## Kerangka Operasional dan Verifikasi Layanan
 
-Dokumen ini mencatat keputusan awal perusahaan untuk layanan SaaS TaranPx dan hal yang masih harus diverifikasi. Dokumen ini bukan pengganti SLA pelanggan yang telah ditandatangani.
+Dokumen ini mencatat keputusan Direktur, persyaratan layanan, dan bukti yang masih perlu diverifikasi. Ini bukan pengganti SLA pelanggan yang telah ditandatangani.
 
 ## 1. Model Layanan
 
-TaranPx terutama disediakan sebagai SaaS pada lingkungan hosting yang dikelola PT Taran Rainmaker Group. Opsi on-premise dibahas dan didokumentasikan secara terpisah.
+TaranPx terutama disediakan sebagai SaaS pada lingkungan hosting yang dikelola PT Taran Rainmaker Group. Opsi on-premise memiliki pembagian tanggung jawab yang berbeda dan harus disepakati per implementasi.
 
-## 2. Keputusan Operasional Awal
+## 2. Keputusan Perusahaan
 
-| Area | Keputusan awal perusahaan | Status verifikasi |
+| Area | Keputusan Direktur | Bukti/status |
 |---|---|---|
-| Backup SaaS | Harian | Jadwal job, cakupan, retensi, lokasi, enkripsi, monitoring, dan bukti keberhasilan perlu diperiksa |
-| Dukungan pelanggan | 24 jam / 7 hari | Kanal, roster petugas, eskalasi, target respons dan pemulihan perlu dicocokkan dengan SLA tertulis |
-| SLA | Perusahaan menyatakan SLA tertulis sudah tersedia | Salinan dan versi yang berlaku belum ditelaah dalam dokumentasi ini |
-| Pemrosesan data | Mengikuti perjanjian dan peran masing-masing pihak | Data map, subprosesor, retensi, dan prosedur permintaan subjek data perlu dilengkapi |
-
-**Penting:** keputusan backup harian dan dukungan 24/7 adalah informasi yang diberikan perusahaan. Pernyataan ini belum menjadi bukti bahwa backup berhasil setiap hari atau bahwa seluruh target dukungan dalam SLA telah diuji.
+| Backup SaaS | Harian | Jadwal dikonfirmasi; konfigurasi, log sukses, cakupan, retensi, enkripsi, akses, dan restore belum diperiksa |
+| Dukungan pelanggan | 24 jam / 7 hari | Keputusan dikonfirmasi; kanal, roster, eskalasi, dan operasional aktual perlu dibuktikan |
+| SLA | Perusahaan menyatakan SLA tertulis sudah tersedia | Salinan SLA belum ditemukan/ditelaah dalam berkas asesmen yang diperiksa |
+| Website analytics | Google Analytics | Nama penyedia diketahui; property, konfigurasi, cookies, event, dan retensi perlu diperiksa |
 
 ## 3. Dukungan 24/7
 
-Perusahaan menetapkan dukungan pelanggan 24 jam sehari dan 7 hari seminggu sebagai keputusan awal layanan.
+Dukungan pelanggan 24/7 merupakan keputusan layanan perusahaan. Untuk menyatakan layanan ini benar-benar operasional, siapkan:
+- Kanal pelaporan yang dapat diakses setiap saat.
+- Jadwal petugas/piket dan pengganti.
+- Jalur eskalasi teknis dan manajerial.
+- Definisi severity/prioritas.
+- Target respons, pembaruan status, dan pemulihan sesuai SLA.
+- Sistem pencatatan tiket dan bukti penyelesaian.
 
-Hal yang harus dicantumkan atau diverifikasi terhadap SLA yang berlaku:
-- Kanal pelaporan resmi dan mekanisme akses di luar jam kerja.
-- Kontak eskalasi dan petugas piket.
-- Definisi severity/prioritas insiden.
-- Target respons awal, pembaruan status, dan pemulihan per kategori.
-- Pengecualian, dependensi pihak ketiga, serta prosedur pemeliharaan.
-- Pencatatan tiket dan bukti penutupan insiden.
-
-Jangan mengiklankan target menit/jam atau jaminan uptime sebelum nilainya dicocokkan dengan SLA yang berlaku dan kemampuan operasional.
+Jangan memublikasikan angka waktu respons atau uptime sebelum dicocokkan dengan SLA.
 
 ## 4. Backup Harian dan Pemulihan
 
-Keputusan awal perusahaan: backup TaranPx SaaS dilakukan setiap hari.
+Perusahaan menetapkan backup TaranPx SaaS dilakukan setiap hari. Pelaksanaan dan hasilnya harus dibuktikan secara terpisah.
 
-Checklist bukti operasional:
-- [ ] Jadwal dan zona waktu job backup.
-- [ ] Cakupan database, file unggahan, konfigurasi, dan komponen terkait.
-- [ ] Lokasi penyimpanan dan pemisahan dari lingkungan produksi.
-- [ ] Enkripsi saat transit dan saat tersimpan, jika diterapkan.
-- [ ] Retensi dan prosedur penghapusan backup.
-- [ ] Monitoring job gagal dan notifikasi petugas.
-- [ ] Pembatasan akses backup.
-- [ ] Uji restore berkala dan catatan hasil.
-- [ ] RPO dan RTO yang disepakati pada SLA.
+Checklist:
+- [ ] Scheduler dan zona waktu.
+- [ ] Cakupan database, file/dokumen, dan konfigurasi pemulihan.
+- [ ] Lokasi penyimpanan terpisah dan tidak publik.
+- [ ] Enkripsi backup dan kontrol akses.
+- [ ] Retensi dan penghapusan.
+- [ ] Log sukses/gagal dan notifikasi.
+- [ ] Uji restore dan catatan hasil.
+- [ ] RPO/RTO sesuai SLA.
 
-Backup harian tidak otomatis berarti pemulihan telah berhasil diuji. Jangan menyatakan RPO/RTO atau retensi tertentu tanpa bukti dan kesepakatan.
+Workbook Security Self-Assessment yang tersedia menilai kontrol penyimpanan backup SaaS sebagai 0 (belum diterapkan/tidak tersedia) dan meminta bukti storage aman, akses terbatas, retensi, monitoring, serta enkripsi jika tersedia. Konfirmasi jadwal harian tidak otomatis mengubah skor ini. Nilai hanya boleh diperbarui setelah bukti aktual dinilai.
 
-## 5. SLA dan Dokumen Pelanggan
+## 5. SLA
 
-Perusahaan menyatakan telah memiliki SLA tertulis. Sebelum kerangka ini diselaraskan, diperlukan salinan SLA terbaru yang telah disetujui/ditandatangani (boleh disamarkan untuk data pelanggan).
+Direktur mengonfirmasi bahwa SLA tertulis sudah ada. Dokumen SLA aktual belum berhasil diidentifikasi dari berkas asesmen yang diperiksa. Untuk sinkronisasi, perlu salinan versi berlaku yang telah disetujui/ditandatangani (boleh disamarkan).
 
-Pastikan perjanjian memuat:
-- Ruang lingkup modul dan layanan.
-- Definisi ketersediaan dan pengecualian.
-- Dukungan 24/7, kanal, prioritas, respons, dan eskalasi.
-- Backup harian, retensi, tanggung jawab, dan pengujian restore.
-- Keamanan, pengelolaan akses, dan penanganan insiden.
-- Peran pengendali/prosesor data, subprosesor, dan instruksi pemrosesan.
-- Ekspor, pengembalian, retensi, dan penghapusan data saat layanan berakhir.
-- Masa berlaku, perubahan, dan mekanisme persetujuan.
+Periksa ruang lingkup, uptime, pengecualian, dukungan 24/7, target respons, backup, retensi, RPO/RTO, uji pemulihan, keamanan, insiden, peran pengendali/prosesor, subprosesor, ekspor/penghapusan data, dan masa berlaku.
 
 ## 6. Pengelolaan Data dan Insiden
 
-Perjanjian perlu mengatur tujuan pemrosesan, instruksi pelanggan, pembatasan akses, penggunaan subprosesor, retensi, ekspor, pengembalian, dan penghapusan data. Data kesehatan dan data pribadi harus ditangani sesuai ketentuan yang berlaku.
+Perjanjian harus mengatur tujuan pemrosesan, instruksi pelanggan, pembatasan akses, subprosesor, retensi, ekspor, pengembalian, dan penghapusan data. Data kesehatan dan data pribadi harus ditangani sesuai ketentuan berlaku.
 
-Tetapkan jalur komunikasi, penanggung jawab, pencatatan, investigasi, pembaruan status, serta mekanisme pemberitahuan insiden.
+## 7. Status Klaim Publik
 
-## 7. Daftar Verifikasi Sebelum Pernyataan Publik
-
-| Pernyataan | Bukti yang diperlukan |
+| Klaim | Status yang diperbolehkan saat ini |
 |---|---|
-| Backup harian berjalan | Konfigurasi scheduler dan log sukses terbaru |
-| Backup dapat dipulihkan | Catatan uji restore |
-| Dukungan 24/7 tersedia | Kanal aktif, jadwal petugas, prosedur eskalasi |
-| SLA berlaku | Dokumen SLA terkini dan persetujuan para pihak |
-| Target uptime/respons/pemulihan | Klausul SLA dan data monitoring/operasional |
+| Jadwal backup ditetapkan harian | Dapat dicatat sebagai keputusan perusahaan |
+| Backup berhasil setiap hari | Belum boleh diklaim tanpa log |
+| Backup terenkripsi dan privat | Belum boleh diklaim tanpa konfigurasi |
+| Restore telah diuji | Belum boleh diklaim tanpa laporan uji |
+| Dukungan 24/7 | Keputusan layanan; bukti roster/kanal masih diperlukan |
+| SLA telah ditandatangani | Menunggu pemeriksaan dokumen SLA |
+| Uptime/RPO/RTO tertentu | Jangan diklaim sebelum diverifikasi terhadap SLA dan bukti |
 
-## Status Dokumen
+## Status
 
-**Status: keputusan awal operasional dicatat; verifikasi bukti masih berlangsung.** Dokumen ini bukan SLA final dan tidak menetapkan angka uptime, target respons, RPO, RTO, atau kompensasi baru.
+Keputusan operasional dicatat; implementasi dan bukti masih diverifikasi. Gunakan bersama [Backup & Recovery Procedure](BACKUP-AND-RECOVERY-PROCEDURE.md) dan [Operational Evidence Checklist](OPERATIONAL-EVIDENCE-CHECKLIST.md).
 
 Kontak: hallo@taranrainmaker.my.id
 
