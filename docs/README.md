@@ -30,6 +30,8 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 - [Information Security Principles](INFORMATION-SECURITY.md) — prinsip umum pengelolaan informasi.
 - [Information Security Policy](INFORMATION-SECURITY-POLICY.md) — naskah kebijakan untuk pengesahan Direktur.
 - [Incident Response Procedure](INCIDENT-RESPONSE-PROCEDURE.md) — prosedur respons insiden dan eskalasi.
+- [PIC Appointment Templates](INTERNAL-APPOINTMENT-LETTERS-TEMPLATES.md) — template penunjukan PIC keamanan informasi dan pelindungan data pribadi.
+- [Personnel NDA Template](NDA-PERSONNEL-TEMPLATE.md) — template perjanjian kerahasiaan personel.
 - [Policy Publication Status](POLICIES.md) — status dokumen kebijakan publik dan dokumen yang perlu disepakati per proyek.
 - [Privacy Policy Readiness](PRIVACY-POLICY-STATUS.md) — daftar verifikasi sebelum kebijakan privasi final diterbitkan.
 - [Privacy Policy Draft](PRIVACY-POLICY-DRAFT.md) — naskah privasi dengan disclosure Google Analytics, masih menunggu data map dan review.
