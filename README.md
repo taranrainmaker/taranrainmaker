@@ -29,6 +29,12 @@ Explore the company's public documentation in one place:
 
 Includes the IT services catalog, vendor and partnership guide, information security principles, policy publication status, company profile, product portfolio, and TaranPx technical overview.
 
+## 🏢 Vendor & Product Resources
+
+- [Corporate Documentation Center](docs/README.md)
+- [Vendor Registration Pack](docs/VENDOR-REGISTRATION-PACK.md)
+- [TaranPx Product Datasheet](docs/TARANPX-DATASHEET.md)
+
 ## 📚 Company & Technical Documentation
 
 - **[Company Profile](COMPANY-PROFILE.md)** — profil perusahaan, fokus usaha, portofolio, prinsip kerja, dan kontak resmi.
