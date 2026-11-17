@@ -34,6 +34,24 @@ For a fuller, carefully scoped overview of the product portfolio, see **[Product
 | 🤱 **TaranMidwife** | Mobile application platform for midwife and home-care services. |
 | 🧩 **TaranHx** | Product concept for healthcare operations, quality, accreditation, administration, HR, and reporting. |
 
+## 🏛️ PSE Registration — TaranPx
+
+<div align="center">
+  <img src="assets/pse-taranpx.svg" alt="Pendaftaran PSE Lingkup Privat untuk sistem TaranPx" width="100%" />
+</div>
+
+**TaranPx** tercantum pada informasi Pendaftaran Penyelenggara Sistem Elektronik (PSE) Lingkup Privat dengan referensi:
+
+| Keterangan | Informasi |
+|:--|:--|
+| Sistem elektronik | TaranPx |
+| Kategori | PSE Lingkup Privat |
+| Nomor referensi | **023357.01/DJAI.PSE/05/2026** |
+
+Informasi ini ditampilkan berdasarkan dokumen/gambar pendaftaran yang diberikan. Pendaftaran PSE tidak dinyatakan sebagai sertifikasi keamanan, hasil audit, atau jaminan kepatuhan terhadap seluruh ketentuan lainnya.
+
+[Pelajari TaranPx](https://github.com/taranrainmaker/taranpx) · [Portfolio Produk](PRODUCTS.md)
+
 ## 🛠️ Areas of Work
 
 <div align="center">
