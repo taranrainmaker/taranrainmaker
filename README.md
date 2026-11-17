@@ -10,6 +10,7 @@
   <a href="https://taranrainmaker.my.id"><img src="https://img.shields.io/badge/Website-Visit%20Us-D4AF37?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="mailto:hallo@taranrainmaker.my.id"><img src="https://img.shields.io/badge/Business%20Inquiries-Contact%20Us-0B1F3A?style=flat-square&logo=gmail&logoColor=white" alt="Business inquiries" /></a>
   <a href="https://github.com/taranrainmaker"><img src="https://img.shields.io/badge/GitHub-taranrainmaker-24292e?style=flat-square&logo=github" alt="GitHub profile" /></a>
+  <a href="https://github.com/sponsors/taranrainmaker"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white" alt="Sponsor PT Taran Rainmaker Group" /></a>
 </div>
 
 ---
@@ -73,6 +74,8 @@ For business inquiries, collaboration, or product demonstrations:
   <a href="https://taranrainmaker.my.id"><img src="https://img.shields.io/badge/Official%20Website-taranrainmaker.my.id-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official website" /></a>
   <br><br>
   <a href="mailto:hallo@taranrainmaker.my.id"><img src="https://img.shields.io/badge/Email-hallo%40taranrainmaker.my.id-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Business email" /></a>
+  <br><br>
+  <a href="https://github.com/sponsors/taranrainmaker"><img src="https://img.shields.io/badge/Support%20Open%20Source-Sponsor%20Us-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support our open-source work" /></a>
 </div>
 
 ---
