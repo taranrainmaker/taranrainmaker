@@ -10,6 +10,8 @@ This page is a high-level portfolio overview. Product scope, implementation stat
 Hospital and clinic information system (SIMRS) and electronic medical record (RME), including a digital Nurse Calling capability.
 
 - Product category: Healthcare information system
+- PSE registration reference: **023357.01/DJAI.PSE/05/2026** (Penyelenggara Sistem Elektronik Lingkup Privat)
+- Primary delivery model: SaaS; on-premise deployment is also offered as an option
 - Product information: [TaranPx repository](https://github.com/taranrainmaker/taranpx)
 - Product access and demonstration: https://px.taranrainmaker.my.id
 
