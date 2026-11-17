@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Pendaftaran PSE Lingkup Privat — TaranPx</title>
+  <desc id="desc">Informasi PSE TaranPx dengan nomor 023357.01/DJAI.PSE/05/2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="0.58" stop-color="#263B72"/>
+      <stop offset="1" stop-color="#7137A8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#F4D98A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="250" rx="18" fill="url(#bg)"/>
+  <path d="M0 220 C250 180 400 270 650 220 S1000 180 1200 220" fill="none" stroke="#FFFFFF" stroke-opacity=".10" stroke-width="2"/>
+  <rect x="52" y="48" width="7" height="154" rx="3.5" fill="url(#accent)"/>
+  <text x="88" y="83" fill="#E7C96B" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="3">PENDAFTARAN PSE</text>
+  <text x="88" y="132" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">Penyelenggara Sistem Elektronik</text>
+  <text x="88" y="169" fill="#DCE5F2" font-family="Arial,Helvetica,sans-serif" font-size="24">Lingkup Privat · Sistem: TaranPx</text>
+  <text x="88" y="210" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600">023357.01/DJAI.PSE/05/2026</text>
+  <circle cx="1110" cy="75" r="34" fill="#FFFFFF" fill-opacity=".08" stroke="#E7C96B" stroke-opacity=".8"/>
+  <path d="M1093 75 l12 12 24 -27" fill="none" stroke="#E7C96B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
