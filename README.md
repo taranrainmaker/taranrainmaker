@@ -21,6 +21,14 @@
 
 We develop and deliver digital solutions with an emphasis on practical workflows, system integration, operational visibility, and dependable technology.
 
+## 🗂️ Corporate Documentation Center
+
+Explore the company's public documentation in one place:
+
+**[Open Corporate Documentation Center →](docs/README.md)**
+
+Includes the IT services catalog, vendor and partnership guide, information security principles, policy publication status, company profile, product portfolio, and TaranPx technical overview.
+
 ## 📚 Company & Technical Documentation
 
 - **[Company Profile](COMPANY-PROFILE.md)** — profil perusahaan, fokus usaha, portofolio, prinsip kerja, dan kontak resmi.
