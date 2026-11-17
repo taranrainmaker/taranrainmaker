@@ -19,16 +19,21 @@ Pusat dokumentasi resmi PT Taran Rainmaker Group untuk mengenal perusahaan, laya
 - [TaranPx Product Datasheet](TARANPX-DATASHEET.md) — ringkasan produk, model layanan, fitur terdokumentasi, integrasi, dan kebutuhan evaluasi.
 - [TaranMidwife Product Datasheet](TARANMIDWIFE-DATASHEET.md) — ringkasan proyek, teknologi, kapabilitas source code, dan status pengembangan.
 - [TaranSignature Product Datasheet](TARANSIGNATURE-DATASHEET.md) — ringkasan fitur terdokumentasi, teknologi, deployment, dan batas klaim produk.
-- [TaranPx SaaS Service Framework](TARANPX-SAAS-SERVICE-FRAMEWORK.md) — kerangka pembahasan SLA, dukungan, backup, data, dan tanggung jawab layanan.
+- [TaranPx SaaS Service Framework](TARANPX-SAAS-SERVICE-FRAMEWORK.md) — keputusan backup harian, dukungan 24/7, SLA, dan bukti operasional.
+- [TaranPx SATUSEHAT Assessment Findings](TARANPX-SATUSEHAT-ASSESSMENT-FINDINGS.md) — ringkasan temuan workbook SaaS dan daftar remediasi.
 
 - [TaranPx Technical Overview](../TECHNICAL-OVERVIEW.md) — gambaran teknis tingkat tinggi TaranPx.
 - [TaranPx Repository](https://github.com/taranrainmaker/taranpx) — dokumentasi produk dan kebijakan keamanan TaranPx.
 
 ## Governance & Information Security
 
-- [Information Security Principles](INFORMATION-SECURITY.md) — prinsip pengelolaan informasi dan keamanan.
+- [Information Security Principles](INFORMATION-SECURITY.md) — prinsip umum pengelolaan informasi.
+- [Information Security Policy](INFORMATION-SECURITY-POLICY.md) — naskah kebijakan untuk pengesahan Direktur.
+- [Incident Response Procedure](INCIDENT-RESPONSE-PROCEDURE.md) — prosedur respons insiden dan eskalasi.
 - [Policy Publication Status](POLICIES.md) — status dokumen kebijakan publik dan dokumen yang perlu disepakati per proyek.
 - [Privacy Policy Readiness](PRIVACY-POLICY-STATUS.md) — daftar verifikasi sebelum kebijakan privasi final diterbitkan.
+- [Privacy Policy Draft](PRIVACY-POLICY-DRAFT.md) — naskah privasi dengan disclosure Google Analytics, masih menunggu data map dan review.
+- [Backup & Recovery Procedure](BACKUP-AND-RECOVERY-PROCEDURE.md) — prosedur backup harian dan pemulihan TaranPx.
 - [TaranPx SaaS Service Framework](TARANPX-SAAS-SERVICE-FRAMEWORK.md) — kerangka pembahasan SLA, dukungan, backup, data, dan tanggung jawab layanan.
 
 - [Operational Evidence Checklist](OPERATIONAL-EVIDENCE-CHECKLIST.md) — bukti yang diperlukan untuk verifikasi backup, dukungan 24/7, analytics, SLA, dan mitra PSrE.
