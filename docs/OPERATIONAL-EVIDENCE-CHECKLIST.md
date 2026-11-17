@@ -1,72 +1,70 @@
-# Operational Evidence Checklist
-## TaranPx SaaS, Privacy, and TaranSignature PSrE Partner
+# Operational Evidence Register
+## TaranPx SaaS, Privacy, and TaranSignature Partner
 
-Dokumen kerja ini digunakan untuk mengumpulkan bukti sebelum memperbarui klaim operasional atau menerbitkan kebijakan final. Jangan masukkan password, token, private key, data pasien, atau informasi rahasia pelanggan ke repositori publik.
+Dokumen ini menjadi indeks untuk memasangkan bukti perusahaan dengan kebutuhan assessment dan dokumen operasional.
 
-## A. TaranPx — Backup Harian
+**Dasar status:** Direktur menginstruksikan agar kelanjutan pekerjaan menganggap bukti pendukung telah tersedia dalam arsip internal. Dengan demikian, status register adalah **dinyatakan tersedia oleh manajemen — perlu dipasangkan ke kontrol dan diperiksa pemilik dokumen sebelum submission**. Ini bukan pernyataan bahwa penyusun telah memeriksa setiap file.
 
-- [ ] Konfigurasi jadwal backup (screenshot yang telah disamarkan atau export konfigurasi tanpa secret).
-- [ ] Cakupan backup: database, dokumen/file, konfigurasi penting.
-- [ ] Lokasi penyimpanan dan pemisahan dari produksi.
-- [ ] Retensi dan prosedur penghapusan.
-- [ ] Enkripsi dan pembatasan akses.
-- [ ] Log keberhasilan/kegagalan beberapa hari terakhir.
-- [ ] Notifikasi jika backup gagal.
-- [ ] Hasil uji restore terakhir.
-- [ ] RPO/RTO yang tercantum dalam SLA.
+## A. TaranPx — Backup harian
 
-**Bukti yang diperlukan:** konfigurasi scheduler, log backup, kebijakan retensi, dan catatan uji restore. Redaksi publik baru boleh menyatakan “backup harian berhasil” setelah bukti log diperiksa.
+Bukti yang dipasangkan:
+- Konfigurasi jadwal backup dan zona waktu.
+- Cakupan database, dokumen/file, serta konfigurasi penting.
+- Lokasi penyimpanan terpisah dari produksi dan tidak public.
+- Retensi, enkripsi, pembatasan akses, serta prosedur penghapusan.
+- Log keberhasilan/kegagalan dan notifikasi.
+- Catatan uji restore.
+- RPO/RTO sesuai SLA.
+
+**Status:** dinyatakan tersedia dalam arsip internal; cocokkan periode bukti dengan tanggal assessment.
 
 ## B. TaranPx — Dukungan 24/7 dan SLA
 
-- [ ] Salinan SLA terbaru (boleh disamarkan untuk nama, harga, kontak, dan data pelanggan).
-- [ ] Tanggal berlaku, nomor versi, dan status persetujuan/penandatanganan.
-- [ ] Kanal dukungan 24/7 dan prosedur akses di luar jam kerja.
-- [ ] Jadwal petugas dan jalur eskalasi.
-- [ ] Kategori prioritas insiden.
-- [ ] Target respons dan pembaruan status.
-- [ ] Target pemulihan/penyelesaian jika dijanjikan.
-- [ ] Definisi uptime, pengecualian, dan jadwal pemeliharaan.
-- [ ] Kontak dan tanggung jawab masing-masing pihak.
+Bukti yang dipasangkan:
+- SLA versi berlaku dan status persetujuan/penandatanganan.
+- Kanal dukungan 24/7 dan prosedur di luar jam kerja.
+- Jadwal petugas/piket dan jalur eskalasi.
+- Kategori prioritas, target respons, pembaruan status, serta pemulihan.
+- Definisi uptime, pengecualian, pemeliharaan, dan tanggung jawab para pihak.
 
-**Bukti yang diperlukan:** SLA terkini dan bukti kesiapan kanal serta jadwal piket. Jangan menambahkan angka target baru di dokumen publik sebelum dicocokkan.
+**Status:** perusahaan menyatakan SLA tertulis tersedia dan dukungan 24/7 merupakan keputusan layanan. Gunakan angka dan komitmen hanya sebagaimana tercantum pada SLA yang berlaku.
 
-## C. Website — Analytics dan Cookies
+## C. Website — Google Analytics dan cookies
 
-- [ ] Nama penyedia analytics dan akun/properti yang digunakan.
-- [ ] Daftar script/tag yang aktif di website.
-- [ ] Daftar cookies dan identifier yang dipasang.
-- [ ] Jenis event dan data yang dikumpulkan.
-- [ ] Tujuan penggunaan masing-masing data.
-- [ ] Retensi data pada penyedia analytics.
-- [ ] Lokasi pemrosesan dan kemungkinan transfer lintas negara.
-- [ ] Pengaturan IP masking/anonimisasi jika tersedia.
-- [ ] Mekanisme pemberitahuan dan pilihan pengguna yang sesuai.
-- [ ] Daftar subprosesor/pihak penerima data.
+Bukti yang dipasangkan:
+- Akun/property dan konfigurasi Google Analytics.
+- Daftar script/tag dan cookies/identifier.
+- Jenis event dan data yang dikumpulkan serta tujuan penggunaannya.
+- Retensi, lokasi pemrosesan/transfer, dan pengaturan privasi.
+- Disclosure dan mekanisme pilihan pengguna yang diterapkan.
+- Daftar subprosesor/pihak penerima data.
 
-**Bukti yang diperlukan:** nama vendor, konfigurasi analytics, daftar cookies/tag, dan dokumentasi vendor.
+**Status:** Google Analytics telah dinyatakan oleh perusahaan sebagai analytics yang digunakan; rincian konfigurasi dipasangkan dari arsip internal.
 
-## D. TaranSignature — Mitra PSrE
+## D. TaranSignature — Mitra Sertisign
 
-- [ ] Nama badan hukum mitra PSrE.
-- [ ] Nama produk/layanan yang digunakan.
-- [ ] Bukti status pengakuan/daftar resmi terkini.
-- [ ] Perjanjian kerja sama atau bukti hubungan layanan.
-- [ ] Jenis sertifikat/layanan TTE yang digunakan.
-- [ ] Bukti integrasi teknis tanpa kredensial rahasia.
-- [ ] Alur penerbitan, penandatanganan, dan validasi.
-- [ ] Pembagian tanggung jawab jika terjadi kegagalan/insiden.
-- [ ] Ketentuan biaya, masa berlaku, dan dukungan mitra.
+Bukti yang dipasangkan:
+- Nama badan hukum dan identitas produk/layanan mitra.
+- Bukti status/daftar resmi terkini yang relevan.
+- Perjanjian atau konfirmasi hubungan layanan.
+- Jenis sertifikat/layanan TTE yang digunakan.
+- Bukti integrasi teknis tanpa kredensial rahasia.
+- Pembagian tanggung jawab, dukungan, dan penanganan insiden.
 
-**Bukti yang diperlukan:** identitas mitra, bukti status resmi, perjanjian atau konfirmasi layanan, serta dokumen integrasi. Rahasia API/private key tidak boleh diunggah.
+**Status:** perusahaan menyatakan menggunakan Sertisign sebagai mitra. Jangan menyebut PT Taran Rainmaker Group sebagai PSrE; rincian status dan ruang lingkup mitra mengikuti dokumen resmi.
 
-## E. Cara Menyerahkan Bukti
+## E. Pengamanan dan submission
 
-Kirim atau unggah hanya dokumen yang relevan dan telah disamarkan. Untuk SLA, kontrak, dan bukti mitra, cukup lampirkan salinan yang menghilangkan data pelanggan, harga sensitif, tanda tangan, nomor pribadi, kredensial, dan informasi rahasia yang tidak diperlukan.
+- Samarkan data pasien, NIK, nomor rekam medis, IHS ID, data klinis, kredensial, private key, token, dan informasi pelanggan yang tidak diperlukan.
+- Simpan bukti pada repositori internal dengan akses terbatas; jangan memasukkan bukti rahasia ke repository publik.
+- Catat nama file, pemilik, tanggal, versi, nomor kontrol, dan reviewer.
+- Pastikan screenshot memperlihatkan konteks yang cukup tanpa membuka data sensitif.
+- Pertahankan salinan asli workbook dan buat salinan kerja untuk pembaruan.
+- Periksa kembali semua nilai dan persyaratan pada portal SATUSEHAT sebelum mengirim.
 
 ## Status
 
-**Terbuka — menunggu bukti perusahaan.** Checklist ini bukan bukti bahwa kontrol telah diterapkan atau kewajiban hukum telah dipenuhi.
+**Dinyatakan tersedia oleh Direktur — menunggu pemetaan file, pemeriksaan pemilik kontrol, dan pengarsipan evidence pack final.**
 
 Kontak: hallo@taranrainmaker.my.id
 
